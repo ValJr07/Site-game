@@ -1,0 +1,77 @@
+*,::after ::before{
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    margin: 0;
+    font-family: Agency FB;
+    line-height: 1.5;
+}
+header{
+    color:aliceblue;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+#esq li{
+    margin-right: 20px;
+}
+#dir li{
+    margin-right: 20px;
+}
+
+#jogar{
+    background-color: rgb(0, 139, 139);
+    cursor: pointer;
+    border-radius: 10px;
+}
+#jogar:hover{
+    background-color: rgb(0, 107, 107);
+}
+#video1{
+    width: 394px;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 50%;
+    filter: brightness(1);
+}
+.historiatudo{
+    background-color: rgb(226, 226, 226);
+    border: black solid 0.8px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 800px;
+    margin-top: 20px;
+    list-style: circle;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.3);
+}
+#videotudo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#logo{
+    text-align: center;
+}
+#imagem-jogo{
+    float: right;
+}
+.text-tudo{
+    text-align: justify;
+    font-size: calc(14px +(16 - 14)*((100vw - 300px) /(1600 - 300)));
+}
+.imagem-jogo{
+    margin: 1rem;
+}
+.tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
