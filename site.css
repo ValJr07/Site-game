@@ -1,4 +1,4 @@
-*,::after ::before{
+*{
     box-sizing: border-box;
 }
 body{
@@ -74,4 +74,51 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Controles{
+    text-align: center;
+}
+.demo{
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    z-index: -1;
+    overflow: hidden;
+}
+#nave{
+    bottom: 0;
+    z-index: 1;
+    position: absolute;
+}
+#movesq{
+    animation: esq-nave 500ms  infinite;
+
+}
+#meteoro{
+    z-index: 1; 
+    width: 50px; 
+    position: absolute; 
+    animation: animação-meteoro 3s infinite linear;
+}
+@keyframes animação-meteoro {
+ from{
+    top: -50px;
+ }   
+ to{
+    top: 100%;
+ }
+}
+@keyframes esq-nave {
+    0%{
+        left: 150px;
+    }
+    100%{
+        left: 0px;
+    }
 }
