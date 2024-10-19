@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     color: black;
@@ -121,4 +122,24 @@ li{
     100%{
         left: 0px;
     }
+}
+
+#noticia{
+    text-align: center;
+}
+.noticias{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+#not1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    float: right;
+}
+
+#textnot1{
+    color: black;
 }
