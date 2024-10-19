@@ -24,8 +24,25 @@ li{
 #esq li{
     margin-right: 20px;
 }
+
+#quem li{
+    margin-right: 20px;
+    cursor: pointer;    
+}
+
+#quem a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 #dir li{
     margin-right: 20px;
+    cursor: pointer;
+}
+
+#dir a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 #jogar{
@@ -53,6 +70,12 @@ li{
     list-style: circle;
     box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.3);
 }
+
+#subtitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13.5px;
+}
+
 #videotudo{
     justify-content: center;
     align-items: center;
