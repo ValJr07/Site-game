@@ -115,10 +115,16 @@ li{
     z-index: -1;
     overflow: hidden;
 }
+#bg{
+    animation: mov-bg 2s infinite;
+    position: relative;
+}
 #nave{
+    left: 80px;
     bottom: 0;
     z-index: 1;
     position: absolute;
+    display: flex;
 }
 #movesq{
     animation: esq-nave 500ms  infinite;
@@ -138,12 +144,13 @@ li{
     top: 100%;
  }
 }
-@keyframes esq-nave {
-    0%{
-        left: 150px;
+
+@keyframes mov-bg {
+    from{
+        top: 0px;
     }
-    100%{
-        left: 0px;
+    to{
+        bottom: 0px;
     }
 }
 
