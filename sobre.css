@@ -55,45 +55,21 @@ li{
     background-color: rgb(0, 107, 107);
 }
 
-#JV{
+#fotos{
     display: flex;
-    width: 475px;
+    width: 220px;
     height: 265px;
-    border: 3px solid black;
     align-content: center;
     margin: 20px;
 }
 
-#VAVA{
-    display: flex;
-    width: 475px;
-    height: 265px;
-    border: 3px solid black;
-    align-content: center;
-    margin: 20px;
+.Des{
+    margin: 25px;
+    border: 3px solid black; 
 }
 
-
-#RAFAS{
-    display: flex;
-    width: 475px;
-    height: 265px;
-    border: 3px solid black;
-    align-content: center;
-    margin: 20px;
-}
-
-#JP{
-    display: flex;
-    width: 475px;
-    height: 265px;
-    border: 3px solid black;
-    align-content: center;
-    margin: 20px;
-}
-
-
-.text{
-    margin-left: 20px;
-    
+#fotos img{
+    width: 220px;
+    height: 100%;
+    cursor: pointer;
 }
