@@ -14,15 +14,21 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 li{
     float: left;
     list-style: none;
     padding: 10px;
+    color: white;
+    font-size: 20px;
 }
 #esq li{
     margin-right: 20px;
+}
+#esq a{
+    text-decoration: none;
+    color: white;
 }
 
 #quem li{
@@ -35,15 +41,41 @@ li{
     color: aliceblue;
 }
 
-
 #dir li{
     margin-right: 20px;
     cursor: pointer;
 }
 
 #dir a{
-    text-decoration: none;
+    
     color: aliceblue;
+}
+li#not1000{
+    cursor: pointer;
+}
+li#not1000:hover{
+    background-color: rgb(39, 39, 39);
+    
+}
+.click{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#click{
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+#click:hover{
+    background-color: rgb(39, 39, 39);
 }
 
 #jogar{
@@ -64,7 +96,7 @@ li{
 }
 
 .Des{
-    margin: 25px;
+    margin: 45px;
     border: 3px solid black; 
 }
 
