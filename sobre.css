@@ -7,6 +7,7 @@ body{
     margin: 0;
     font-family: Agency FB;
     line-height: 1.5;
+    background-color: rgb(189, 189, 189);
 }
 header{
     color:aliceblue;
@@ -89,19 +90,18 @@ li#not1000:hover{
 
 #fotos{
     display: flex;
-    width: 220px;
-    height: 265px;
-    align-content: center;
     margin: 20px;
+    justify-content: space-between;
 }
 
 .Des{
     margin: 45px;
-    border: 3px solid black; 
+    
 }
 
-#fotos img{
-    width: 220px;
-    height: 100%;
+.Des img{
+    width: 200px;
+    height: 200px;
     cursor: pointer;
+    border-radius: 50%;
 }
